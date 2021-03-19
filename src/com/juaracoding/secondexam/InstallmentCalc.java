@@ -34,7 +34,7 @@ public class InstallmentCalc {
 		{
 			LocalDate nextDueDt = startDt.plusMonths(i);
 			
-			double interest = InstallmentCalc.calculateInterest(rate, OSPrincipal);
+			double interest = calculateInterest(rate, OSPrincipal);
 			
 			double principalAmt = installment - interest;
 			

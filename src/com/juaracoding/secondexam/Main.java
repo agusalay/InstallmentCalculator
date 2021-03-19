@@ -46,8 +46,6 @@ public class Main {
 		{
 			InstallmentTable a = instaList.get(i);
 			
-			a.getSeqNo();
-			
 			System.out.format("%10d %10s %10f %10f %10f  %10f %n", a.getSeqNo(), a.getDueDate().format(formatters), a.getInstallmentAmt(), a.getPrincipalAmt(), a.getInterest(), a.getOSPrincipalAmt());
 
 		}
